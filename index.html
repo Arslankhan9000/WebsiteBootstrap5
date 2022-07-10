@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website using Bootstrap5 and sass</title>
+
+    <!-- link or attached the css files -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <!-- Fontawseom file susing fontawesome.scss compile -->
+    <link rel="stylesheet" href="./Assets/css/fontawesome.css">
+    <!-- For video popup  -->
+    <link rel="stylesheet" href="./Assets/Feature Venders/glightbox/css/glightbox.min.css">
+
+
+</head>
+
+<body>
+
+    <!--==================================================================================================
+                              NavBar section Starts 1
+====================================================================================================-->
+    <!-- Copy the bootstrap navbar component  -->
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top" aria-label="Fifth navbar example">
+        <!-- <div class="container-fluid">it takes full width  with less padding so we use container class only -->
+        <div class="container">
+            <!-- Logo ................ -->
+            <a class="navbar-brand" href="#">
+                <!-- <img src="/Assets/images/logo.png" alt="CodingFreak"> -->
+                <h4>CodingFreak</h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <!-- Menus ......................... -->
+
+            <!-- <div class="collapse navbar-collapse" id="navbarsExample05"> we use justify content end to move right -->
+            <div class="collapse navbar-collapse justify-content-end text-center" id="navbarsExample05">
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> to move right remove the classes -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Faq</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu bg-dark text-light aria-labelledby=" dropdown05 ">
+                            <li><a class="dropdown-item " href="# ">Action</a></li>
+                            <li><a class="dropdown-item " href="# ">Another action</a></li>
+                            <li><a class="dropdown-item " href="# ">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Call us button  -->
+                <button type="button " class="rounded-pill btn-rounded ">+923105321448
+            <span><i class="fas fa-phone-alt "></i></span>
+        </button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--================================================================================================= 
+                            Intro section Starts   header  2
+====================================================================================================-->
+
+
+    <section id="home " class="Intro_Section ">
+        <div class="container ">
+            <div class="row align-items-center text-white ">
+                <!-- Start the content for the intro  -->
+                <div class="col-md-6 intros ">
+                    <h1 class="display-2 ">
+                        <!--dispaly-2 is a boostrap heading class  -->
+                        <span class="display-2--intro ">Hey!, I'm Arslan</span>
+                        <span class="display-2--description lh-base ">I am a Web Designer to design this portfolio Website using bootstrap v5 and sass</span>
+                    </h1>
+                    <button type="button " class="rounded-pill btn-rounded ">Get in touch
+          <span><i class="fas fa-arrow-right "></i></span>
+       </button>
+                </div>
+
+                <!-- Start content for video and illustration img -->
+                <div class="col-md-6 intros text-end ">
+                    <div class="Video_Box ">
+                        <img src="/Assets/images/Coding _Monochromatic.png " alt="Video illustration " class="img-fluid ">
+                        <!-- play button  -->
+                        <a href="# " class="position-absolute top-50 start-50 translate-middle glightbox ">
+                            <!-- For icon  -->
+                            <span>
+             <i class="fas fa-play-circle "></i>
+           </span>
+                            <!-- For animation  -->
+                            <span class="Border_Animation Border_Animation--Border1 "></span>
+                            <span class="Border_Animation Border_Animation--Border2 "></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 1440 320 "><path fill="#ffffff " fill-opacity="1 " d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z "></path></svg>
+    </section>
+
+
+
+
+    <!--============================================================================================= 
+                          Companies section Starts  3
+================================================================================================-->
+
+    <section id="Companies " class="Companies ">
+        <!-- Heading Section Title  -->
+        <div class="container ">
+            <div class="row text-center ">
+                <h4 class="fw-bold lead mb-3 ">Trusted by companies</h4>
+                <div class="Heading_line mb-5 "></div>
+            </div>
+        </div>
+
+        <!-- Companies images  -->
+        <div class="container ">
+            <div class="row ">
+                <!-- img1-box  -->
+                <div class="col-md-4 col-lg-2 ">
+                    <div class="Companies__Logo_box shadow-sm ">
+                        <img src="/Assets/images/campanies/campany-2.png " class="img-fluid " alt="Google company2_Logo " title="Google company2_Logo ">
+                    </div>
+                </div>
+
+                <!-- img2-box  -->
+                <div class="col-md-4 col-lg-2 ">
+                    <div class="Companies__Logo_box shadow-sm ">
+                        <img src="/Assets/images/campanies/campany-1.png " class="img-fluid " alt="Microsoft company1_Logo " title="Microsoft company1_Logo ">
+                    </div>
+                </div>
+
+                <!-- img3-box  -->
+                <div class="col-md-4 col-lg-2 ">
+                    <div class="Companies__Logo_box shadow-sm ">
+                        <img src="/Assets/images/campanies/campany-4.png " class="img-fluid " alt="airbnb company4_Logo " title="airbnb company4_Logo ">
+                    </div>
+                </div>
+
+                <!-- img4-box  -->
+                <div class="col-md-4 col-lg-2 ">
+                    <div class="Companies__Logo_box shadow-sm ">
+                        <img src="/Assets/images/campanies/campany-3.png " class="img-fluid " alt="Walmart company3_Logo " title="Walmart company3_Logo ">
+                    </div>
+                </div>
+
+                <!-- img5-box  -->
+                <div class="col-md-4 col-lg-2 ">
+                    <div class="Companies__Logo_box shadow-sm ">
+                        <img src="/Assets/images/campanies/campany-5.png " class="img-fluid " alt="Amazon company5_Logo " title="Amazon company5_Logo ">
+                    </div>
+                </div>
+
+                <!-- img6-box  -->
+                <div class="col-md-4 col-lg-2 ">
+                    <div class="Companies__Logo_box shadow-sm ">
+                        <img src="/Assets/images/campanies/campany-6.png " class="img-fluid " alt="CNN company6_Logo " title="CNN company6_Logo ">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--================================================================================================ 
+                          Services section Starts 4
+==================================================================================================-->
+
+    <section id="Our_Services " class="services ">
+        <!-- Heading Titile of Section Our Services .................. -->
+        <div class="container ">
+            <div class="row text-center ">
+                <h2 class="display-3 fw-bold ">Our Services</h2>
+                <div class="Heading_line mb-2 "></div>
+            </div>
+
+
+            <!-- For two Columns  .............................-->
+
+            <div class="row pt-2 pb-2 mt-0 mb-3 ">
+                <div class="col-md-6 border-right ">
+                    <div class="bg-white p-3 ">
+                        <h3 class="fw-bold text-capitalize text-center ">
+                            We provide our Best services from initial to Deployment Anywhere anytime 🙂
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="bg-white p-4 text-start ">
+                        <p class="fw-light text-start ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit corrupti quos, quis ducimus minima dicta architecto rem cumque optio sunt inventore quia consequatur veniam obcaecati ex nam fugit aliquam similique doloribus voluptatem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- For Define our Services content and illustrations  -->
+        <div class="container ">
+            <!-- For Marketing Content .......................................................................... -->
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-lg-4 mt-md-4 mt-sm-0 ">
+                    <div class="services__Content ">
+                        <!-- Marketing Services Col1....-->
+                        <i class="icon fas fa-paper-plane d-block "></i>
+                        <h3 class="display-3--title mt-1 ">Marketing</h3>
+                        <p class="lh-lg ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod accusamus nobis sunt aliquam est delectus deleniti voluptate optio aut saepe ipsa, nulla ea autem labore ducimus nostrum molestias quasi inventore.
+                        </p>
+                        <button type="button " class="rounded-pill btn-rounded border-primary ">Read More
+        <span><i class="fas fa-arrow-right "></i></span>
+     </button>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-lg-4 mt-md-4 text-end mt-sm-0 ">
+                    <div class="services__Img ">
+                        <!-- Illustration Marketing  -->
+                        <img src="/Assets/images/services/service-1.png " class="img-fluid " alt="Illustration Marketing ">
+                    </div>
+                </div>
+            </div>
+
+            <!-- For Web Development Content ....................................................................... -->
+            <div class="row flex-r ">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-lg-4 mt-md-4 mt-sm-0 text-start ">
+                    <div class="services__Img ">
+                        <!-- Illustration Web dev  -->
+                        <img src="/Assets/images/services/service-2.png " class="img-fluid " alt="Illustration Web dev ">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-lg-4 mt-md-4 mt-sm-0 ">
+                    <div class="services__Content ">
+                        <!-- Web Development Services Col2 -->
+                        <i class="icon fas fa-code d-block "></i>
+                        <h3 class="display-3--title mt-1 ">Web Development</h3>
+                        <p class="lh-lg ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod accusamus nobis sunt aliquam est delectus deleniti voluptate optio aut saepe ipsa, nulla ea autem labore ducimus nostrum molestias quasi inventore.
+                        </p>
+                        <button type="button " class="rounded-pill btn-rounded border-primary ">Read More
+        <span><i class="fas fa-arrow-right "></i></span>
+     </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- For Cloud Hosting Content ...................................................................... -->
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-lg-4 mt-md-4 mt-sm-0 ">
+                    <div class="services__Content ">
+                        <!-- Cloud Hosting Services Col1 -->
+                        <i class="icon fas fa-cloud-upload-alt d-block "></i>
+                        <h3 class="display-3--title mt-1 ">Clouds</h3>
+                        <p class="lh-lg ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod accusamus nobis sunt aliquam est delectus deleniti voluptate optio aut saepe ipsa, nulla ea autem labore ducimus nostrum molestias quasi inventore.
+                        </p>
+                        <button type="button " class="rounded-pill btn-rounded border-primary ">Read More
+        <span><i class="fas fa-arrow-right "></i></span>
+     </button>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-lg-4 mt-md-4 text-end mt-sm-0 ">
+                    <div class="services__Img ">
+                        <!-- Illustration CloudHosting  -->
+                        <img src="/Assets/images/services/service-3.png " class="img-fluid " alt="Illustration CloudHosting ">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!--================================================================================================ 
+                        Client Testemonials section Starts 5
+==================================================================================================-->
+
+    <section id="Testimonials " class="Testimonials ">
+        <!-- For Wave code  arrow down from getwave.io -->
+        <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 1440 320 "><path fill="#fff " fill-opacity="1 " d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z "></path></svg>
+        <!-- For heading or Titile  -->
+        <div class="container ">
+            <div class="row text-center text-white ">
+                <h2 class="display-3 fw-bold ">Testimonials</h2>
+                <hr style="width: 7rem; height: 0.2rem; " class="mx-auto ">
+                <p class="lead pt-1 ">what our clients are saying</p>
+            </div>
+
+            <!-- Testimonial carousal content .................................... -->
+
+            <div class="row align-item-center ">
+                <!-- Carousal code  -->
+                <div id="myCarousel " class="carousel slide " data-bs-ride="carousel ">
+
+                    <div class="carousel-inner ">
+                        <!-- Crousal  client 1 detail ================================================== -->
+                        <div class="carousel-item ">
+                            <!-- Testimonial Cards  -->
+                            <div class="Testimonials__cards ">
+                                <!-- paragraph text  -->
+                                <p class="lh-lg ">
+                                    <!-- Left quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-left "></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur enim aut blanditiis voluptate rem harum, labore impedit dignissimos ex quidem tempora nihil, eligendi hic doloribus.
+                                    Lorem ipsum dolor sit amet.
+
+                                    <!-- Right quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-right "></i>
+
+                                    <!-- Rating 5 starts from font-awesome  -->
+                                    <div class="Ratings p-1 ">
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                    </div>
+                                </p>
+                            </div>
+
+                            <!-- Client Picture or image in middle  -->
+                            <div class="Testimonials__Pic ">
+                                <img src="/Assets/images/testimonials/client-1.jpg " alt="Client1 " class="img-fluid rounded-circle animate-border ">
+                            </div>
+
+                            <!-- Role and name of Client  -->
+                            <div class="Testimonials__nameRole ">
+                                <h3>Jack Bezos</h3>
+                                <p class="lead fw-light ">CEO & Founder</p>
+                            </div>
+
+                        </div>
+                        <!-- ................................................................................. -->
+
+                        <!-- Crousal  client 2 detail ================================================== -->
+                        <div class="carousel-item active ">
+                            <!-- Testimonial Cards  -->
+                            <div class="Testimonials__cards ">
+                                <!-- paragraph text  -->
+                                <p class="lh-lg ">
+                                    <!-- Left quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-left "></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur enim aut blanditiis voluptate rem harum, labore impedit dignissimos ex quidem tempora nihil, eligendi hic doloribus.
+                                    Lorem ipsum dolor sit amet.
+
+                                    <!-- Right quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-right "></i>
+
+                                    <!-- Rating 5 starts from font-awesome  -->
+                                    <div class="Ratings p-1 ">
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                    </div>
+                                </p>
+                            </div>
+
+                            <!-- Client Picture or image in middle  -->
+                            <div class="Testimonials__Pic ">
+                                <img src="/Assets/images/testimonials/client-2.jpg " alt="Client2 " class="img-fluid rounded-circle animate-border ">
+                            </div>
+
+                            <!-- Role and name of Client  -->
+                            <div class="Testimonials__nameRole ">
+                                <h3>Joy Lilli</h3>
+                                <p class="lead fw-light ">Brand Manager</p>
+                            </div>
+
+                        </div>
+
+                        <!-- ....................................................................... -->
+
+                        <!-- Crousal  client 3 detail ================================================== -->
+                        <div class="carousel-item ">
+                            <!-- Testimonial Cards  -->
+                            <div class="Testimonials__cards ">
+                                <!-- paragraph text  -->
+                                <p class="lh-lg ">
+                                    <!-- Left quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-left "></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur enim aut blanditiis voluptate rem harum, labore impedit dignissimos ex quidem tempora nihil, eligendi hic doloribus.
+                                    Lorem ipsum dolor sit amet.
+
+                                    <!-- Right quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-right "></i>
+
+                                    <!-- Rating 5 starts from font-awesome  -->
+                                    <div class="Ratings p-1 ">
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                    </div>
+                                </p>
+                            </div>
+
+                            <!-- Client Picture or image in middle  -->
+                            <div class="Testimonials__Pic ">
+                                <img src="/Assets/images/testimonials/client-3.jpg " alt="Client3 " class="img-fluid rounded-circle animate-border ">
+                            </div>
+
+                            <!-- Role and name of Client  -->
+                            <div class="Testimonials__nameRole ">
+                                <h3>Sofi Haden</h3>
+                                <p class="lead fw-light ">Finance Manager</p>
+                            </div>
+
+                        </div>
+
+                        <!-- ---------------------------------------------------------------------------------- -->
+
+                        <!-- Crousal  client 4 detail ================================================== -->
+                        <div class="carousel-item ">
+                            <!-- Testimonial Cards  -->
+                            <div class="Testimonials__cards ">
+                                <!-- paragraph text  -->
+                                <p class="lh-lg ">
+                                    <!-- Left quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-left "></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur enim aut blanditiis voluptate rem harum, labore impedit dignissimos ex quidem tempora nihil, eligendi hic doloribus.
+                                    Lorem ipsum dolor sit amet.
+
+                                    <!-- Right quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-right "></i>
+
+                                    <!-- Rating 5 starts from font-awesome  -->
+                                    <div class="Ratings p-1 ">
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                    </div>
+                                </p>
+                            </div>
+
+                            <!-- Client Picture or image in middle  -->
+                            <div class="Testimonials__Pic ">
+                                <img src="/Assets/images/testimonials/client-4.jpg " alt="Client4 " class="img-fluid rounded-circle animate-border ">
+                            </div>
+
+                            <!-- Role and name of Client  -->
+                            <div class="Testimonials__nameRole ">
+                                <h3>Nasir Khan</h3>
+                                <p class="lead fw-light ">CEO & CO-Founder</p>
+                            </div>
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------------------------------- -->
+
+
+                        <!-- Crousal  client 5 detail ================================================== -->
+                        <div class="carousel-item ">
+                            <!-- Testimonial Cards  -->
+                            <div class="Testimonials__cards ">
+                                <!-- paragraph text  -->
+                                <p class="lh-lg ">
+                                    <!-- Left quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-left "></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur enim aut blanditiis voluptate rem harum, labore impedit dignissimos ex quidem tempora nihil, eligendi hic doloribus.
+                                    Lorem ipsum dolor sit amet.
+
+                                    <!-- Right quote icon from fontawesome  -->
+                                    <i class="fas fa-quote-right "></i>
+
+                                    <!-- Rating 5 starts from font-awesome  -->
+                                    <div class="Ratings p-1 ">
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                        <i class="fas fa-star "></i>
+                                    </div>
+                                </p>
+                            </div>
+
+                            <!-- Client Picture or image in middle  -->
+                            <div class="Testimonials__Pic ">
+                                <img src="/Assets/images/testimonials/client-5.jpg " alt="Client5 " class="img-fluid rounded-circle animate-border ">
+                            </div>
+
+                            <!-- Role and name of Client  -->
+                            <div class="Testimonials__nameRole ">
+                                <h3>Arslan Khan</h3>
+                                <p class="lead fw-light ">Manager</p>
+                            </div>
+
+                        </div>
+
+
+                        <!-- ------------------------------------------------------------------------------ -->
+
+                    </div>
+
+                    <!-- Butttons fr move next and previous  -->
+                    <!-- text-center to center the items  -->
+                    <div class="text-center ">
+                        <!-- Previous button  -->
+                        <button class="btn btn-outline-light fas fa-long-arrow-alt-left " type="button " data-bs-target="#myCarousel " data-bs-slide="prev ">
+ 
+        </button>
+                        <!-- Previous button  -->
+                        <button class="btn btn-outline-light fas fa-long-arrow-alt-right " type="button " data-bs-target="#myCarousel " data-bs-slide="next ">
+
+        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+        <!-- For bottom wave arrow up  -->
+        <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 1440 320 "><path fill="#fff " fill-opacity="1 " d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z "></path></svg>
+    </section>
+
+
+
+
+
+
+    <!--================================================================================================ 
+                        FAQ Questions and Answers section Starts 5
+==================================================================================================-->
+
+
+    <section id="faq " class="faq ">
+        <div class="container ">
+            <!-- For Heading  -->
+            <div class="row text-center ">
+                <h2 class="display-3 fw-bold text-uppercase ">FAQ</h2>
+                <div class="Heading_line mb-2 "></div>
+                <!-- sub heading  -->
+                <p class="lead ">Frequently asked Questions, Free Feel to Ask and Get Knowledge</p>
+            </div>
+
+            <!-- Accordian Content Row ..................................................... -->
+            <div class="row mt-5 ">
+                <!-- For Full Width  -->
+                <div class="col-md-12 mb-5 ">
+
+                    <div class="accordion " id="accordionExample ">
+                        <!-- Accordion Item 1 ................................................... -->
+                  <div class="accordion-item shadow mb-3 ">
+                  <h2 class="accordion-header " id="headingOne ">
+                  <button class="accordion-button " type="button " data-bs-toggle="collapse " data-bs-target="#collapseOne " aria-expanded="true " aria-controls="collapseOne ">
+                                  What is Html?
+                                </button>
+
+                            </h2>
+
+                            <div id="collapseOne " class="accordion-collapse collapse show " aria-labelledby="headingOne " data-bs-parent="#accordionExample ">
+                                <div class="accordion-body ">
+                                    <strong>This is the first item's accordion body.</strong>Hyper Text Markup Language. HTML is Bone of your website that every website stands.IT is the Main language and body in web development and standard markup language
+                                    for giving a static skeleton for web application and websites..
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion item 2 --------------------------------------------------------------- -->
+                        <div class="accordion-item shadow mb-3 ">
+                            <h2 class="accordion-header " id="headingTwo ">
+                                <button class="accordion-button collapsed " type="button " data-bs-toggle="collapse " data-bs-target="#collapseTwo " aria-expanded="false " aria-controls="collapseTwo ">
+                What is CSS?
+              </button>
+                            </h2>
+                            <div id="collapseTwo " class="accordion-collapse collapse " aria-labelledby="headingTwo " data-bs-parent="#accordionExample ">
+                                <div class="accordion-body ">
+                                    <strong>This is the second item's accordion body.</strong>Cascading Style sheet: It is used for designing and used to handle for the presentation the web pages containing HTML. It Gives our website beautiful and modern
+                                    looking.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion item 3 --------------------------------------------------------------------- -->
+                        <div class="accordion-item shadow mb-3 ">
+                            <h2 class="accordion-header " id="headingThree ">
+                                <button class="accordion-button collapsed " type="button " data-bs-toggle="collapse " data-bs-target="#collapseThree " aria-expanded="false " aria-controls="collapseThree ">
+                Waht is JS?
+              </button>
+                            </h2>
+                            <div id="collapseThree " class="accordion-collapse collapse " aria-labelledby="headingThree " data-bs-parent="#accordionExample ">
+                                <div class="accordion-body ">
+                                    <strong>This is the third item's accordion body.</strong>Java script It is the high level dynamic interpreted programming language. It is for client-side scripting to create completely dynamic web applications and websites.
+                                    It is the brain of Html what to do how to do.
+                                    <code>JavaScript</code>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Accordion Item 4  ....................................................................-->
+
+                        <div class="accordion-item shadow mb-3 ">
+                            <h2 class="accordion-header " id="headingFour ">
+                                <button class="accordion-button collapsed " type="button " data-bs-toggle="collapse " data-bs-target="#collapseFour " aria-expanded="false " aria-controls="collapseFour ">
+                Waht is Bootstrap?
+              </button>
+                            </h2>
+                            <div id="collapseFour " class="accordion-collapse collapse " aria-labelledby="headingFour " data-bs-parent="#accordionExample ">
+                                <div class="accordion-body ">
+                                    <strong>This is the third item's accordion body.</strong> Bootstrap is a CSS based front-end framework created by twitter, Faster and easier web development.
+                                    <code>Easily create responsive web layouts</code>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!--================================================================================================ 
+                        Portfolio Filter Gallary or Latest Work section Starts 
+==================================================================================================-->
+
+
+    <section id="Porfolio " class="Porfolio ">
+        <div class="container ">
+            <!-- For Heading  -->
+            <div class="row text-center ">
+                <h2 class="display-3 fw-bold text-capitalize ">Latest Work</h2>
+                <div class="Heading_line mb-2 "></div>
+                <!-- sub heading  -->
+                <p class="lead ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, consequuntur vitae enim debitis eum eos.</p>
+            </div>
+
+
+            <!-- Filter gallary or button ......................................  -->
+            <div class="row text-center mt-5 mb-4 gutter-3 ">
+                <div class="col-md-12 " id="portfolio-flters ">
+                    <button type="button " class="btn btn-outline-primary filter-active " data-filter="* ">All</button>
+                    <button type="button " class="btn btn-outline-primary " data-filter=".filter-Ui ">Design</button>
+                    <button type="button " class="btn btn-outline-primary " data-filter=".filter-Web ">Websites</button>
+                    <button type="button " class="btn btn-outline-primary filter-Moc " data-filter=".filter-Moc ">Mockups</button>
+                </div>
+            </div>
+
+            <!-- Starts Portfolio Filter Gallary items .......................................... -->
+            <div class="row portfolio-container ">
+                <!-- Picture  1 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Ui portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-1.jpg " alt="Portfolio 1 img " title="Portfolio 1 Pic " class="img-fluid gallary-item ">
+                        <!-- gallary-item class used for modal popup img  -->
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 1 </h4>
+                                <p>Category Projects</p>
+                                <a><i class="fas fa-plus "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Picture  2 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Ui portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-2.jpg " alt="Portfolio 2 img " title="Portfolio 2 Pic " class="img-fluid gallary-item ">
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 2 </h4>
+                                <p>Categoery Project </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Picture  3 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Web portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-3.jpg " alt="Portfolio 3 img " title="Portfolio 3 Pic " class="img-fluid gallary-item ">
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 3 </h4>
+                                <p>Categoery Project </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Picture  4 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Web portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-4.jpg " alt="Portfolio 4 img " title="Portfolio 4 Pic " class="img-fluid gallary-item ">
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 4 </h4>
+                                <p>Categoery Project </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Picture  5 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Moc portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-5.jpg " alt="Portfolio 5 img " title="Portfolio 5 Pic " class="img-fluid gallary-item ">
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 5 </h4>
+                                <p>Categoery Project </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Picture  6 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Web portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-6.jpg " alt="Portfolio 6 img " title="Portfolio 6 Pic " class="img-fluid gallary-item ">
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 6 </h4>
+                                <p>Categoery Project </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Picture  7 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Moc portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-7.jpg " alt="Portfolio 7 img " title="Portfolio 7 Pic " class="img-fluid gallary-item ">
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 7 </h4>
+                                <p>Categoery Project </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Picture  8 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Web portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-8.jpg " alt="Portfolio 8 img " title="Portfolio 8 Pic " class="img-fluid gallary-item ">
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 8 </h4>
+                                <p>Categoery Project </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Picture  9 .......................-->
+                <div class="col-lg-4 col-md-6 filter-Ui portfolio-item ">
+                    <div class="Portfolio-Box shadow ">
+                        <img src="Assets/images/portfolio/portfolio-9.jpg " alt="Portfolio 9 img " title="Portfolio 9 Pic " class="img-fluid gallary-item ">
+                        <div class="Portfolio-Info ">
+                            <div class="caption ">
+                                <h4>Project name Here 9 </h4>
+                                <p>Categoery Project </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Button trigger modal
+<button type="button " class="btn btn-primary " data-bs-toggle="modal " data-bs-target="#exampleModal ">
+  Launch demo modal
+</button> -->
+
+    <!-- Modal -->
+    <div class="modal fade " id="gallary-modal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <!-- <div class="modal-dialog "> for centered the modal and large width  -->
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <!-- <h5 class="modal-title " id="exampleModalLabel ">Modal title</h5> -->
+                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                </div>
+                <div class="modal-body ">
+                    <img src="/Assets/images/portfolio/portfolio-1.jpg " class="modal-img " alt="Modal img ">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--================================================================================================ 
+                        Contact US  or Get Started section Starts 7
+==================================================================================================-->
+
+    <section id="Contact-US " class="Get-Started ">
+        <div class="container ">
+            <!-- Heading row Content.......................................  -->
+            <div class="row text-center ">
+                <h2 class="display-3 fw-bold text-capitalize ">Get Started</h2>
+                <div class="Heading_line mb-2 "></div>
+                <!-- sub heading  -->
+                <p class="lead ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, consequuntur.</p>
+            </div>
+
+            <!-- Contact us Contents ---------------------------- -->
+
+            <div class="row text-white ">
+                <!-- For gradient Background page  Customer Satisfaction  -->
+                <div class="col-12 col-lg-6 gradient-bg p-3 shadow ">
+                    <!-- Customer Satisfaction info  -->
+                    <div class="CS-info w-100 ">
+                        <h4 class="display-4 fw-bold ">100% Satisfaction Guaranteed</h4>
+                        <p class="lh-lg ">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem expedita velit non, eius ullam cupiditate quos animi in suscipit, alias, obcaecati voluptas? Non quas minus in natus, cumque blanditiis hic.
+                        </p>
+                        <h3 class="display-3--brief ">
+                            What will be the next step?
+                        </h3>
+
+                        <ul class="CS-info__list ">
+                            <li>We will prepare the proposal.</li>
+                            <li>We will be discuss it together.</li>
+                            <li>let's start the discussion.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact us form  -->
+                <div class="col-12 col-lg-6 bg-white p-3 shadow ">
+                    <div class="form w-100 pb-3 ">
+                        <!-- Heading  -->
+                        <h4 class="display-3--title mb-5 ">Start Your Project</h4>
+                        <!-- Form  -->
+                        <form action="# " class="row ">
+
+                            <!-- For First name  -->
+                            <div class="mb-3 col-md-6 col-lg-6 col-12 ">
+                                <input type="text " class="form-control shadow form-control-lg " placeholder="First Name " id="input_FirstName ">
+                            </div>
+
+                            <!-- For last name  -->
+                            <div class="mb-3 col-md-6 col-lg-6 col-12 ">
+                                <input type="text " class="form-control shadow form-control-lg " placeholder="Last Name " id="input_LasstName ">
+                            </div>
+
+                            <!-- For Email  -->
+                            <div class="mb-3 col-lg-12 ">
+                                <input type="email " class="form-control shadow form-control-lg " placeholder="Email Address " id="input_Email ">
+                            </div>
+                            <!-- Textare for message  -->
+                            <div class="mb-3 col-lg-12 ">
+                                <textarea name="Message " class="form-control shadow form-control-lg " id="Message " placeholder="Enter your message... " rows="8 "></textarea>
+                            </div>
+
+                            <!-- Add Submit button  -->
+                            <div class="text-center d-grid mt-1 ">
+                                <button class="btn btn-primary rounded-pill pt-3 pb-3 ">
+                Submit <i class="fas fa-paper-plane "></i>
+              </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!--================================================================================================ 
+                        Footer Started section Starts 8
+==================================================================================================-->
+
+    <footer class="Footer ">
+        <div class="container ">
+            <!-- Three Columns For Contactno Email and Location container ..................... -->
+
+            <div class="row ">
+                <!-- For Contact number  -->
+                <div class="col-md-4 col-lg-4 Contact-Box pt-1 d-md-block d-lg-flex d-flex ">
+                    <div class="Contact-Box__icon ">
+                        <!-- Svg html code for Phone-call icon  -->
+                        <svg xmlns="http://www.w3.org/2000/svg " class="icon icon-tabler icon-tabler-phone-call " viewBox="0 0 24 24 " stroke-width="1.5 " fill="none " stroke-linecap="round " stroke-linejoin="round ">
+            <path stroke="none " d="M0 0h24v24H0z " fill="none "/>
+            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2 " />
+            <path d="M15 7a2 2 0 0 1 2 2 " />
+            <path d="M15 3a6 6 0 0 1 6 6 " />
+          </svg>
+
+                    </div>
+                    <div class="Contact-Box__Info ">
+                        <a href=" " class="Contact-Box__Info--title ">+923014850787</a>
+                        <p class="Contact-Box__Info--subTitle ">Mon-Fri 8am-4pm</p>
+                    </div>
+                </div>
+                <!-- For Email -->
+                <div class="col-md-4 col-lg-4 Contact-Box pt-1 d-md-block d-lg-flex d-flex ">
+                    <div class="Contact-Box__icon ">
+                        <!-- Icon For Email  mail-opened -->
+                        <svg xmlns="http://www.w3.org/2000/svg " class="icon icon-tabler icon-tabler-mail-opened " viewBox="0 0 24 24 " stroke-width="1.5 " fill="none " stroke-linecap="round " stroke-linejoin="round ">
+            <path stroke="none " d="M0 0h24v24H0z " fill="none "/>
+            <polyline points="3 9 12 15 21 9 12 3 3 9 " />
+            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10 " />
+            <line x1="3 " y1="19 " x2="9 " y2="13 " />
+            <line x1="15 " y1="13 " x2="21 " y2="19 " />
+          </svg>
+                    </div>
+                    <div class="Contact-Box__Info ">
+                        <a href=" " class="Contact-Box__Info--title ">Example@yahoo.com</a>
+                        <p class="Contact-Box__Info--subTitle ">Online Support</p>
+                    </div>
+                </div>
+                <!-- For Location  -->
+                <div class="col-md-4 col-lg-4 Contact-Box pt-1 d-md-block d-lg-flex d-flex ">
+                    <div class="Contact-Box__icon ">
+                        <!-- Location icon  map-2 -->
+                        <svg xmlns="http://www.w3.org/2000/svg " class="icon icon-tabler icon-tabler-map-2 " viewBox="0 0 24 24 " stroke-width="1.5 " fill="none " stroke-linecap="round " stroke-linejoin="round ">
+            <path stroke="none " d="M0 0h24v24H0z " fill="none "/>
+            <line x1="18 " y1="6 " x2="18 " y2="6.01 " />
+            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5 " />
+            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15 " />
+            <line x1="9 " y1="4 " x2="9 " y2="17 " />
+            <line x1="15 " y1="15 " x2="15 " y2="20 " />
+          </svg>
+                    </div>
+                    <div class="Contact-Box__Info ">
+                        <a href=" " class="Contact-Box__Info--title ">Islamabad, Pakistan</a>
+                        <p class="Contact-Box__Info--subTitle ">ISB 10012,Pakistan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Social Media Container .......................................... -->
+
+        <div class="footer-social-media ">
+            <div class="container ">
+                <div class="row py-4 text-center text-white ">
+                    <div class="col-lg-5 col-md-6 mb-md-0 mb-4 ">
+                        Connect With Us on Social Media.
+                    </div>
+                    <!-- Social Icons -->
+                    <div class="col-lg-7 col-md-6 ">
+                        <a href="# "><i class="fab fa-facebook "></i></a>
+                        <a href="# "><i class="fab fa-twitter "></i></a>
+                        <a href="# "><i class="fab fa-github "></i></a>
+                        <a href="# "><i class="fab fa-linkedin "></i></a>
+                        <a href="# "><i class="fab fa-instagram "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Company info Content  Container.............................................. -->
+
+        <div class="container mt-5 ">
+            <div class="row text-white justify-content-center mt-3 pb-3 ">
+                <!-- 4 columns  -->
+                <!-- Col 1 for company name  -->
+                <div class="col-12 col-sm-6 col-lg-6 mx-auto ">
+                    <h5 class="text-capitalize fw-bold ">CodingFreakgit</h5>
+                    <hr class="bg-white d-inline-block mb-4 " style="width: 65px; height: 2.1px; ">
+                    <p class="lh-lg ">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolore ducimus commodi perspiciatis aut? Eum quasi dicta perferendis explicabo neque!
+                    </p>
+                </div>
+
+                <!-- Col 2 for Products  -->
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto ">
+                    <h5 class="text-capitalize fw-bold ">Products</h5>
+                    <hr class="bg-white d-inline-block mb-4 " style="width: 65px; height: 2.1px; ">
+                    <!-- Links -->
+                    <ul class="list-inline Company-List-Links ">
+                        <li><a href="# ">Product 1</a></li>
+                        <li><a href="# ">Product 2</a></li>
+                        <li><a href="# ">Product 3</a></li>
+                        <li><a href="# ">Product 4</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3 for links  -->
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto ">
+                    <h5 class="text-capitalize fw-bold ">Links</h5>
+                    <hr class="bg-white d-inline-block mb-4 " style="width: 65px; height: 2.1px; ">
+                    <!-- Links -->
+                    <ul class="list-inline Company-List-Links ">
+                        <li><a href="# ">Become an Affiliate</a></li>
+                        <li><a href="# ">Your Account</a></li>
+                        <li><a href="# ">Create and Account</a></li>
+                        <li><a href="# ">Help</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4 for Contact  -->
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto ">
+                    <h5 class="text-capitalize fw-bold ">Contact-Info</h5>
+                    <hr class="bg-white d-inline-block mb-4 " style="width: 65px; height: 2.1px; ">
+                    <!-- Links -->
+                    <ul class="list-inline Company-List-Links ">
+                        <li><a href="# ">Contact 1</a></li>
+                        <li><a href="# ">Contact 2</a></li>
+                        <li><a href="# ">Contact 3</a></li>
+                        <li><a href="# ">Contact 4</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Footter Copyright Content Footer Bottom  -->
+        <div class="footer-c-bottom pt-5 pb-5 ">
+            <div class="container ">
+                <div class="row text-center ">
+                    <div class="col-12 col-lg-12 ">
+                        <div class="footer-c-bottom__Copyright ">
+                            &copy;Copyright 2021 <a href="# ">SigmaCodeClub</a> Created by <a href="# ">Arslan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--================================================================================================ 
+                        Back to top button
+==================================================================================================-->
+
+    <a href="# " class="btn-primary shadow rounded-circle BackTo_Top_Btn ">
+        <i class="fas fa-chevron-up "></i>
+    </a>
+
+
+    <!-- link or attached the js files -->
+    <script src="/Assets/js/bootstrap.bundle.js "></script>
+    <!-- For video popup  -->
+    <script src="./Assets/Feature Venders/glightbox/js/glightbox.min.js "></script>
+
+    <script src="/Assets/Vendors/aos/aos.js\ "></script>
+
+    <script src="/Assets/Vendors/isotope-layout/isotope.pkgd.min.js "></script>
+
+    <!-- my script File  -->
+    <script type="text/javascript ">
+        // From Glightbox for popup video 
+        const lightbox = GLightbox({
+            // touchNavigation:true,
+            // loop: true,
+            autoplayVideos: true,
+            'href': 'https://www.youtube.com',
+            'type': 'video',
+            'source': 'youtube', //Vimeo, youtube or local 
+            'width': 800
+        });
+
+
+
+
+
+        // For Popup img in Portfolio gallary Modal use 
+
+        document.addEventListener('click', function(e) {
+            // Give me the whole element 
+            // console.log(element.target);
+
+            if (e.target.classList.contains("gallary-item ")) {
+                const src = e.target.getAttribute("src ");
+                // console.log(src);
+                document.querySelector(".modal-img ").src = src;
+
+                // Using bootstrap 5 javascript
+                const myModal = new bootstrap.Modal(document.getElementById('gallary-modal'));
+                myModal.show()
+            }
+        })
+
+
+
+
+
+
+
+
+
+
+
+        /**
+         * Porfolio isotope and filter
+
+           /**
+         * Easy selector helper function
+         */
+        const select = (el, all = false) => {
+            el = el.trim()
+            if (all) {
+                return [...document.querySelectorAll(el)]
+            } else {
+                return document.querySelector(el)
+            }
+        }
+
+        /**
+         * Easy event listener function
+         */
+        const on = (type, el, listener, all = false) => {
+            if (all) {
+                select(el, all).forEach(e => e.addEventListener(type, listener))
+            } else {
+                select(el, all).addEventListener(type, listener)
+            }
+        }
+
+        // .................................................
+        // Main Porfolio code 
+
+        window.addEventListener('load', () => {
+            const portfolioContainer = select(".portfolio-container ");
+
+            if (portfolioContainer) {
+                let portfolioIsotope = new Isotope(portfolioContainer, {
+                    itemSelector: '.portfolio-item',
+                    layoutMode: 'fitRows'
+                });
+
+
+
+                // let portfolioFilters = document.querySelectorAll("#portfolio-flters button ",true);
+                let portfolioFilters = select('#portfolio-flters button', true);
+                on('click', '#portfolio-flters button', function(e) {
+                    e.preventDefault();
+                    portfolioFilters.forEach(function(el) {
+                        el.classList.remove('filter-active');
+                    });
+                    this.classList.add('filter-active');
+
+                    portfolioIsotope.arrange({
+                        filter: this.getAttribute('data-filter')
+                    });
+                    aos_init();
+                }, true);
+            }
+
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+<!--  -->

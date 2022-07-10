@@ -1,0 +1,76 @@
+@use'../custom' as *;
+
+// For mixin defined 
+@use '../components/mixins' as *;
+
+
+.services
+{
+  position: relative;
+  padding: 1.2rem 0;
+
+  .flex-r
+  {
+    
+    //   For web Development content in small devices  for column reverse
+    @include media-breakpoint-down(sm)
+    {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    @include media-breakpoint-down(md)
+    {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__Content
+  {
+      padding: 1.3rem;
+      margin-top: 0.11rem;
+
+      @include media-breakpoint-down(md)
+      {
+        padding: 0.5rem 1.3rem;
+        margin-top: 0rem;
+      }
+
+      p
+      {
+          font-size: 0.87rem;
+        @include media-breakpoint-up(lg)
+          {
+            font-size: 1.2rem;
+          }
+      }
+      
+      @include media-breakpoint-up(lg)
+      {
+        margin-top: 5.2rem;
+      }
+      .icon
+      {
+          font-size: 1.7rem;
+          color: $primary;
+
+      @include media-breakpoint-up(lg)
+        {
+        font-size: 2.6rem;
+        }
+      }
+  }
+
+  &__Img
+  {
+      max-width: 100%;
+      @include media-breakpoint-down(sm)
+      {
+        margin-left: 1.1rem;
+        margin-right: 1.1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+      }
+  }
+}

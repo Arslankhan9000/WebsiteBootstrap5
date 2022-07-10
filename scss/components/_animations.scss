@@ -1,0 +1,33 @@
+// Pulse Border animation   Intro Section for play button
+
+@keyframes Pulse_Border
+{
+    0%
+    {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100%
+    {
+        transform: scale(1.8);
+        opacity: 0.2;
+    }
+}
+
+
+// Testimonials picture border 
+
+// @keyframes animate_border
+// {
+//  0%
+//  {
+//      border-color: rgba($primary,0.8);
+//  }  
+
+// 100%
+//  {
+//      border-color: rgba($secondary,0.8);
+//  }  
+
+// }

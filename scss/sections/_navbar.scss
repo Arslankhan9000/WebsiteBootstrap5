@@ -1,0 +1,24 @@
+@use'../custom' as *;
+
+// For mixin defined 
+@use '../components/mixins' as *;
+.menu
+{
+//  @include mixin name that define in -mixin.sasss components
+ @include gradient;
+
+  li
+  {
+      padding: 0rem 0.70rem;
+
+      a
+      {
+          color:$white !important;
+          text-transform: capitalize;
+          font-size: 1rem;
+          font-weight: bold;
+      }
+  }
+}
+
+

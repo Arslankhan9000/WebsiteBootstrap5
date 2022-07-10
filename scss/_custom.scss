@@ -1,0 +1,76 @@
+
+
+// Now we override the bootstrap variables which is default 
+// Open >> In modules>bootstrap>scss>_variables.scss 
+
+// My Theme colors...................................
+// $purple-dark:  #9926f0;
+// $purple-light:  #bb6ef5;
+// $purple-dark:  #1e77a5;
+// $purple-light:  #05e4f7;
+// $pink:    #d122e3;
+// $purple-dark:#045de9;
+// $purple-light: #09c6f9;
+
+// $purple-dark:#0083b0;
+// $purple-light: #00b4db ;
+//    $pink:    #d122e3;
+// $pink:#4fa9f2;
+// $pink:#6dd5ed;
+
+
+$purple-dark: #045de9;
+$purple-light: #09c6f9 , #5b86e5, ; 
+$pink:#009ffd;
+
+
+// White and Grey Colors from _variables.scss ..................
+
+
+// footer 
+$Footer: #151414;
+
+// copy the varaibles or colors to overrride or change them
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+
+// Our primary and Secondary colors 
+$primary:$purple-dark;
+$secondary:$pink;
+
+
+
+// Accordian Overrides colors & buttons .................................
+
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+
+$accordion-padding-y:        1.52rem;
+$accordion-padding-x:        1.52rem;
+
+$accordion-icon-width:                    1.545rem;
+// For plus sign 
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d= 'M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+
+// For minus sign icon 
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
+
+
+
+// Import Bootstrap 5  (the main scss bootstrap file)
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+

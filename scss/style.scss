@@ -1,0 +1,20 @@
+// Import _custom.scss file in style .css 
+@use "custom";
+
+//Import components in componenets folder
+@use "components/animations";
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typography";
+
+
+//Import every sections in section folder
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/trusted-companies";
+@use "sections/services";
+@use "sections/testimonials";
+@use "sections/faqA";
+@use "sections/my-portfolio";
+@use "sections/get-startedContact";
+@use "sections/footer";
